@@ -1,1 +1,1 @@
-⚠️ **TEST ścieżki alarmu** — ręczne sprawdzenie, że strażnik otwiera zgłoszenie. Zamknie się automatycznie przy następnym stanie „ok”.
+✅ **Koniec testu ścieżki alarmu** — zgłoszenie zamyka się automatycznie po powrocie stanu „ok”.
