@@ -1,17 +1,17 @@
 {
   "v": 1,
   "ok": true,
-  "at": 1792688244000,
-  "run": "https://github.com/rdemb/hyperquant-data/actions/runs/39818399990",
+  "at": 1792688653000,
+  "run": "https://github.com/rdemb/hyperquant-data/actions/runs/39819401320",
   "lines": [
-    "✓ 2026-10-22.jsonl: 129 linii",
+    "✓ 2026-10-22.jsonl: 136 linii",
     "✓ kolejność i spójność rekordów",
     "✓ wyniki zgodne z przeliczonymi z kwantyli",
     "✓ ensemble: 3 wydań — p_e i p_r zgodne z zapisanymi wagami; wagi 3 ostatnich wydań odtworzone ponownym dopasowaniem na pytaniach rozstrzygniętych przed wydaniem",
     "✓ prerejestracje katalogów: lab-v1 2026-10-22T15:50Z (61210eb59087…)",
-    "✓ historia git: 64 commitów, tylko dopisywanie",
-    "✓ pokwitowania slotów (partie): 36/36",
+    "✓ historia git: 67 commitów, tylko dopisywanie",
+    "✓ pokwitowania slotów (partie): 37/37",
     "✓ kotwice dni zgodne: 0",
-    "✓ ceny źródłowe zgodne ze świecami 1m: sprawdzone 49/49 (pozostałe starsze niż ~3.4 doby)"
+    "✓ ceny źródłowe zgodne ze świecami 1m: sprawdzone 53/53 (pozostałe starsze niż ~3.4 doby)"
   ]
 }
