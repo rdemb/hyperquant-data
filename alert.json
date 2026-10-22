@@ -1,6 +1,8 @@
 {
   "v": 1,
-  "ok": true,
-  "checkedAt": 1792679525654,
-  "problems": []
+  "ok": false,
+  "checkedAt": 1792681540000,
+  "problems": [
+    "TEST ścieżki alarmu (ręczny) — sprawdzenie, że zgłoszenie się otwiera; zamknie się automatycznie za chwilę."
+  ]
 }
