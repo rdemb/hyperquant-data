@@ -1,17 +1,20 @@
 {
   "v": 1,
-  "ok": true,
-  "at": 1792688653000,
-  "run": "https://github.com/rdemb/hyperquant-data/actions/runs/39819401320",
+  "ok": false,
+  "at": 1792766294000,
+  "run": "https://github.com/rdemb/hyperquant-data/actions/runs/39971279339",
   "lines": [
-    "✓ 2026-10-22.jsonl: 136 linii",
+    "✓ 2026-10-22.jsonl: 398 linii",
+    "✓ 2026-10-23.jsonl: 590 linii",
     "✓ kolejność i spójność rekordów",
-    "✓ wyniki zgodne z przeliczonymi z kwantyli",
-    "✓ ensemble: 3 wydań — p_e i p_r zgodne z zapisanymi wagami; wagi 3 ostatnich wydań odtworzone ponownym dopasowaniem na pytaniach rozstrzygniętych przed wydaniem",
-    "✓ prerejestracje katalogów: lab-v1 2026-10-22T15:50Z (61210eb59087…)",
-    "✓ historia git: 67 commitów, tylko dopisywanie",
-    "✓ pokwitowania slotów (partie): 37/37",
-    "✓ kotwice dni zgodne: 0",
-    "✓ ceny źródłowe zgodne ze świecami 1m: sprawdzone 53/53 (pozostałe starsze niż ~3.4 doby)"
+    "✗ wyniki niezgodne z przeliczonymi (1): 1792749600000-mkt16148: liquid = false ≠ przeliczone ze spreadu i głębokości true",
+    "✓ ensemble: 90 wydań — p_e i p_r zgodne z zapisanymi wagami; wagi ostatnich wydań (90) odtworzone ponownym dopasowaniem na pytaniach rozstrzygniętych przed wydaniem",
+    "✓ A/B: wariant B = wersja A × skala ze wzoru, te same chwile (83 prognozy)",
+    "✓ plan A/B ab-v1 prerejestrowany 2026-10-22T17:51Z, zgodny z kodem; wariant B wydawany po rejestracji",
+    "✓ prerejestracje (katalog laboratorium, plan A/B): lab-v1 2026-10-22T15:50Z (61210eb59087…), ab-v1 2026-10-22T17:51Z (9fc8cb71021b…)",
+    "✓ historia git: 415 commitów, tylko dopisywanie",
+    "✓ pokwitowania slotów (partie): 210/210",
+    "✓ kotwice dni zgodne: 1",
+    "✓ ceny źródłowe zgodne ze świecami 1m: sprawdzone 476/476 (pozostałe starsze niż ~3.4 doby)"
   ]
 }
