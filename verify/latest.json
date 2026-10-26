@@ -1,22 +1,23 @@
 {
   "v": 1,
   "ok": false,
-  "at": 1792940030000,
-  "run": "https://github.com/rdemb/hyperquant-data/actions/runs/40204313306",
+  "at": 1793027331000,
+  "run": "https://github.com/rdemb/hyperquant-data/actions/runs/40346199801",
   "lines": [
     "✓ 2026-10-22.jsonl: 398 linii",
     "✓ 2026-10-23.jsonl: 960 linii",
     "✓ 2026-10-24.jsonl: 960 linii",
-    "✓ 2026-10-25.jsonl: 600 linii",
+    "✓ 2026-10-25.jsonl: 960 linii",
+    "✓ 2026-10-26.jsonl: 610 linii",
     "✓ kolejność i spójność rekordów",
-    "✗ wyniki niezgodne z przeliczonymi (1): 1792749600000-mkt16148: liquid = false ≠ przeliczone ze spreadu i głębokości true",
-    "✓ ensemble: 283 wydania — p_e i p_r zgodne z zapisanymi wagami; wagi ostatnich wydań (283) odtworzone ponownym dopasowaniem na pytaniach rozstrzygniętych przed wydaniem",
-    "✓ A/B: wariant B = wersja A × skala ze wzoru, te same chwile (276 prognoz)",
+    "✗ wyniki niezgodne z przeliczonymi (2): 1792749600000-mkt16148: liquid = false ≠ przeliczone ze spreadu i głębokości true; 1793024100000-mkt17734: liquid = false ≠ przeliczone ze spreadu i głębokości true",
+    "✓ ensemble: 380 wydań — p_e i p_r zgodne z zapisanymi wagami; wagi ostatnich wydań (380) odtworzone ponownym dopasowaniem na pytaniach rozstrzygniętych przed wydaniem",
+    "✓ A/B: wariant B = wersja A × skala ze wzoru, te same chwile (373 prognozy)",
     "✓ plan A/B ab-v1 prerejestrowany 2026-10-22T17:51Z, zgodny z kodem; wariant B wydawany po rejestracji",
     "✓ prerejestracje (katalog laboratorium, plan A/B): lab-v1 2026-10-22T15:50Z (61210eb59087…), ab-v1 2026-10-22T17:51Z (9fc8cb71021b…)",
-    "✓ historia git: 1206 commitów, tylko dopisywanie",
-    "✓ pokwitowania slotów (partie): 596/596",
-    "✓ kotwice dni zgodne: 3",
-    "✓ ceny źródłowe zgodne ze świecami 1m: sprawdzone 1441/1441 (pozostałe starsze niż ~3.4 doby)"
+    "✓ historia git: 1595 commitów, tylko dopisywanie",
+    "✓ pokwitowania slotów (partie): 790/790",
+    "✓ kotwice dni zgodne: 4",
+    "✓ ceny źródłowe zgodne ze świecami 1m: sprawdzone 1598/1926 (pozostałe starsze niż ~3.4 doby)"
   ]
 }
