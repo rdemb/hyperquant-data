@@ -1,15 +1,15 @@
-✅ **Dane skanera świeże** — sprawdzono 2026-10-26 15:07 UTC
+✅ **Dane skanera świeże** — sprawdzono 2026-10-27 15:08 UTC
 
 | Miara | Wartość |
 |---|---|
-| Wiek status.json | 3 min |
-| Wiek liq-map/BTC.json | 3 min |
-| Wiek dziennika prognoz | 5 min |
-| Wiek profilu płynności | 4 min |
+| Wiek status.json | 1 min |
+| Wiek liq-map/BTC.json | 7 min |
+| Wiek dziennika prognoz | 2 min |
+| Wiek profilu płynności | 5 min |
 | Wiek laboratorium folkloru | 34 min |
-| Pokrycie OI | 43.6% |
-| Mediana wieku pozycji (ważona) | 16 min |
-| Pozycje / adresy | 22736 / 43312 |
-| Błędy API (od startu procesu) | 24 |
+| Pokrycie OI | 44.0% |
+| Mediana wieku pozycji (ważona) | 21 min |
+| Pozycje / adresy | 23538 / 42900 |
+| Błędy API (od startu procesu) | 25 |
 
 Źródło: https://raw.githubusercontent.com/rdemb/hyperquant-data/main
