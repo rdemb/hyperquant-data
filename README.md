@@ -9,7 +9,8 @@ ani arkusza — bez nagrania wykres miałby footprint, Deltę, CVD i mapę ciep�
   agresora (B/A), numery zlecenia agresora, biorcy i makera w obrębie godziny, indeksy transakcji z hashem zerowym (`z`,
   m.in. podzlecenia TWAP; brak kolumny — plik sprzed jej wprowadzenia); kontekst minutowy (OI, finansowanie, mark); pokrycie.
 - `<RYNEK>/<RRRR-MM-DD>/<GG>.book.json.gz` — migawki arkusza (co ok. 5 s, 20 poziomów na stronę: cena, wielkość, liczba
-  zleceń) w agregacji bliskiej (~2 pb ceny) i dalekiej (10 × większy krok); pokrycie.
+  zleceń) w agregacji bliskiej (~2 pb ceny) i dalekiej (10 × większy krok), dla BTC także bez agregacji (migawka z piątym
+  elementem 1); pokrycie.
 - `<GG>-<MM>.*.json.gz` — części 5-minutowe godziny w toku (po jej zamknięciu łączone w plik godzinowy).
 
 Pokrycie (`spans`) to odcinki ciągłego nagrania: luka po zerwaniu połączenia albo restarcie zostaje jawną luką.
