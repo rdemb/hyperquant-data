@@ -1,8 +1,8 @@
 {
   "v": 1,
   "ok": true,
-  "at": 1793828125000,
-  "run": "https://github.com/rdemb/hyperquant-data/actions/runs/41915521010",
+  "at": 1793832008000,
+  "run": "https://github.com/rdemb/hyperquant-data/actions/runs/41924758841",
   "lines": [
     "✓ 2026-10-22.jsonl: 398 linii",
     "✓ 2026-10-23.jsonl: 960 linii",
@@ -17,20 +17,20 @@
     "✓ 2026-11-01.jsonl: 1248 linii",
     "✓ 2026-11-02.jsonl: 1248 linii",
     "✓ 2026-11-03.jsonl: 1248 linii",
-    "✓ 2026-11-04.jsonl: 1119 linii",
+    "✓ 2026-11-04.jsonl: 1171 linii",
     "✓ kolejność i spójność rekordów",
     "✓ wyniki zgodne z przeliczonymi z kwantyli",
-    "✓ ensemble: 1268 wydań — p_e i p_r zgodne z zapisanymi wagami; wagi ostatnich wydań (1268) odtworzone ponownym dopasowaniem na pytaniach rozstrzygniętych przed wydaniem",
-    "✓ A/B: wariant B = wersja A × skala ze wzoru, te same chwile (1256 prognoz)",
+    "✓ ensemble: 1272 wydania — p_e i p_r zgodne z zapisanymi wagami; wagi ostatnich wydań (1272) odtworzone ponownym dopasowaniem na pytaniach rozstrzygniętych przed wydaniem",
+    "✓ A/B: wariant B = wersja A × skala ze wzoru, te same chwile (1260 prognoz)",
     "✓ plan A/B ab-v1 prerejestrowany 2026-10-22T17:51Z, zgodny z kodem; wariant B wydawany po rejestracji",
-    "✓ Schrödi: 711 prognoz — p, szanse dotknięcia i stożek przeliczone z zapisanych cech publicznymi modelami, hashe modeli zgodne",
-    "✓ plan zaufania kota schrodi-trust-v1 prerejestrowany 2026-10-28T11:48Z, zgodny z kodem; przeliczone z rekordów — duży ruch E = 6.40 (175 godzin, dowód od 2026-10-30T14Z), kierunek E = 0.308 (175 godzin), dotknięcia E = 2.89 (159 godzin, dowód od 2026-10-31T16Z); dowód przy E ≥ 20; alarm dryfu: brak",
-    "✓ godzina na żywo: 348 zapisów — cena, próg i szanse startowe z prognozy kota, p przeliczone z zapisanych cech publicznym modelem, hash zgodny",
-    "✓ plan godziny na żywo schrodi-hour-v1 prerejestrowany 2026-10-28T14:30Z, zgodny z kodem; przeliczone z rekordów — duży ruch wobec samej drogi ceny E = 0.539 (174 godziny); alarm dryfu: brak",
+    "✓ Schrödi: 715 prognoz — p, szanse dotknięcia i stożek przeliczone z zapisanych cech publicznymi modelami, hashe modeli zgodne",
+    "✓ plan zaufania kota schrodi-trust-v1 prerejestrowany 2026-10-28T11:48Z, zgodny z kodem; przeliczone z rekordów — duży ruch E = 5.25 (176 godzin, dowód od 2026-10-30T14Z), kierunek E = 0.321 (176 godzin), dotknięcia E = 2.89 (159 godzin, dowód od 2026-10-31T16Z); dowód przy E ≥ 20; alarm dryfu: brak",
+    "✓ godzina na żywo: 350 zapisów — cena, próg i szanse startowe z prognozy kota, p przeliczone z zapisanych cech publicznym modelem, hash zgodny",
+    "✓ plan godziny na żywo schrodi-hour-v1 prerejestrowany 2026-10-28T14:30Z, zgodny z kodem; przeliczone z rekordów — duży ruch wobec samej drogi ceny E = 0.507 (175 godzin); alarm dryfu: brak",
     "✓ prerejestracje (katalog laboratorium, plany ocen): lab-v1 2026-10-22T15:50Z (61210eb59087…), ab-v1 2026-10-22T17:51Z (9fc8cb71021b…), schrodi-trust-v1 2026-10-28T11:48Z (08e5f5691375…), schrodi-hour-v1 2026-10-28T14:30Z (4fe6367dfb9a…)",
-    "✓ historia git: 5107 commitów, tylko dopisywanie",
-    "✓ pokwitowania slotów (partie): 2567/2567",
+    "✓ historia git: 5123 commity, tylko dopisywanie",
+    "✓ pokwitowania slotów (partie): 2575/2575",
     "✓ kotwice dni zgodne: 13",
-    "✓ ceny źródłowe zgodne ze świecami 1m: sprawdzone 2082/7418 (pozostałe starsze niż ~3.4 doby); cechy godziny na żywo ze świec: 163"
+    "✓ ceny źródłowe zgodne ze świecami 1m: sprawdzone 2074/7444 (pozostałe starsze niż ~3.4 doby); cechy godziny na żywo ze świec: 161"
   ]
 }
