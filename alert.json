@@ -1,6 +1,8 @@
 {
   "v": 1,
-  "ok": true,
-  "checkedAt": 1793989350184,
-  "problems": []
+  "ok": false,
+  "checkedAt": 1793991121397,
+  "problems": [
+    "odczyty pozycji opóźnione: mediana ważona 35 min (próg 30 min)"
+  ]
 }
