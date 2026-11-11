@@ -1,6 +1,8 @@
 {
   "v": 1,
-  "ok": true,
-  "checkedAt": 1794387083244,
-  "problems": []
+  "ok": false,
+  "checkedAt": 1794392589131,
+  "problems": [
+    "odczyty pozycji opóźnione: mediana ważona 30 min (alarm powyżej 30 min, koniec po 2 przebiegach poniżej 25 min)"
+  ]
 }
