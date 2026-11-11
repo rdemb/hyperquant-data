@@ -1,6 +1,8 @@
 {
   "v": 1,
-  "ok": true,
-  "checkedAt": 1794381776904,
-  "problems": []
+  "ok": false,
+  "checkedAt": 1794386289141,
+  "problems": [
+    "niezależna weryfikacja dziennika: ostatnia 48 h temu (próg 36 h) — przebieg nie kończy się albo nie startuje"
+  ]
 }
