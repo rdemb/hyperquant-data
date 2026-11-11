@@ -10,10 +10,10 @@ Zapis następuje tylko przy zmianie stanu (oraz co 6 h przy trwałym problemie).
 `.github/workflows/health-alert.yml`, który otwiera, komentuje albo zamyka zgłoszenie z etykietą `alert-danych`.
 Dane są publiczne — bez adresów, ścieżek ani danych serwera.
 
-Zapis strażnika (także puls co 12 h przy „ok”) uruchamia też `.github/workflows/ledger-verify.yml` — niezależną
-weryfikację dziennika z gałęzi `ledger` weryfikatorem z repo HyperQuant (`scripts/verify-ledger.mjs`):
+Niezależna weryfikacja dziennika działa od 11.11.2026 w repo HyperQuant: workflow
+[`ledger-verify.yml`](https://github.com/rdemb/HyperQuant/actions/workflows/ledger-verify.yml) co 6 h sprawdza gałąź
+`ledger` tego repo i zapisuje wynik w gałęzi `weryfikacja-dziennika` repo HyperQuant
+([`verify/latest.json`](https://raw.githubusercontent.com/rdemb/HyperQuant/weryfikacja-dziennika/verify/latest.json)).
+Znaczek: `https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/rdemb/HyperQuant/weryfikacja-dziennika/badge/ledger.json`.
 
-- `verify/latest.json` — wynik ostatniego zakończonego przebiegu (`ok`, `at`, `run`, `commit`, `lines`),
-- `verify/checkpoint.json` — punkt kontrolny: ostatni commit gałęzi `ledger` z udaną weryfikacją; historia git jest
-  sprawdzana od niego, cała historia co najmniej raz na 7 dni,
-- `badge/ledger.json` — znaczek shields.io; zielony tylko przy zgodnym wyniku nie starszym niż 36 h.
+Pliki `badge/` i `verify/` w tej gałęzi są nieaktualne (zostają jako historia) i nie są już zmieniane.
