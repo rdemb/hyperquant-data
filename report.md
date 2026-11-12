@@ -1,22 +1,17 @@
-⚠️ **Problem z danymi skanera** — sprawdzono 2026-11-12 07:53 UTC
-
-**Wykryte problemy:**
-- odczyty pozycji opóźnione: mediana ważona 27 min (alarm powyżej 30 min, koniec po 2 przebiegach poniżej 25 min)
+✅ **Dane skanera świeże** — sprawdzono 2026-11-12 10:38 UTC
 
 | Miara | Wartość |
 |---|---|
-| Wiek status.json | 1 min |
-| Wiek liq-map/BTC.json | 7 min |
-| Wiek dziennika prognoz | 4 min |
-| Wiek profilu płynności | 8 min |
-| Wiek laboratorium folkloru | 28 min |
+| Wiek status.json | 3 min |
+| Wiek liq-map/BTC.json | 5 min |
+| Wiek dziennika prognoz | 6 min |
+| Wiek profilu płynności | 6 min |
+| Wiek laboratorium folkloru | 24 min |
 | Wiek warstwy wielorybów | 5 min |
-| Wiek niezależnej weryfikacji dziennika | 0 h |
-| Pokrycie OI | 47.4% |
-| Mediana wieku pozycji (ważona) | 27 min |
-| Pozycje / adresy | 30400 / 50000 |
-| Błędy API (od startu procesu) | 1 |
+| Wiek niezależnej weryfikacji dziennika | 3 h |
+| Pokrycie OI | 47.2% |
+| Mediana wieku pozycji (ważona) | 2 min |
+| Pozycje / adresy | 29707 / 50000 |
+| Błędy API (od startu procesu) | 0 |
 
 Źródło: https://raw.githubusercontent.com/rdemb/hyperquant-data/main
-
-Diagnostyka: stan usługi `hyperquant-scanner` i jej dziennik (`journalctl -u hyperquant-scanner`) na serwerze skanera. Zgłoszenie zamknie się samo, gdy dane znów będą świeże.
