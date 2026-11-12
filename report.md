@@ -1,20 +1,20 @@
-⚠️ **Problem z danymi skanera** — sprawdzono 2026-11-12 01:37 UTC
+⚠️ **Problem z danymi skanera** — sprawdzono 2026-11-12 07:53 UTC
 
 **Wykryte problemy:**
-- odczyty pozycji opóźnione: mediana ważona 31 min (alarm powyżej 30 min, koniec po 2 przebiegach poniżej 25 min)
+- odczyty pozycji opóźnione: mediana ważona 27 min (alarm powyżej 30 min, koniec po 2 przebiegach poniżej 25 min)
 
 | Miara | Wartość |
 |---|---|
-| Wiek status.json | 2 min |
-| Wiek liq-map/BTC.json | 2 min |
-| Wiek dziennika prognoz | 2 min |
-| Wiek profilu płynności | 3 min |
-| Wiek laboratorium folkloru | 13 min |
-| Wiek warstwy wielorybów | 2 min |
-| Wiek niezależnej weryfikacji dziennika | 6 h |
-| Pokrycie OI | 47.5% |
-| Mediana wieku pozycji (ważona) | 31 min |
-| Pozycje / adresy | 32062 / 50000 |
+| Wiek status.json | 1 min |
+| Wiek liq-map/BTC.json | 7 min |
+| Wiek dziennika prognoz | 4 min |
+| Wiek profilu płynności | 8 min |
+| Wiek laboratorium folkloru | 28 min |
+| Wiek warstwy wielorybów | 5 min |
+| Wiek niezależnej weryfikacji dziennika | 0 h |
+| Pokrycie OI | 47.4% |
+| Mediana wieku pozycji (ważona) | 27 min |
+| Pozycje / adresy | 30400 / 50000 |
 | Błędy API (od startu procesu) | 1 |
 
 Źródło: https://raw.githubusercontent.com/rdemb/hyperquant-data/main
