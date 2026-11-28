@@ -1,4 +1,4 @@
-✅ **Dane skanera świeże** — sprawdzono 2026-11-27 15:22 UTC
+✅ **Dane skanera świeże** — sprawdzono 2026-11-28 03:22 UTC
 
 | Miara | Wartość |
 |---|---|
@@ -8,10 +8,10 @@
 | Wiek profilu płynności | 5 min |
 | Wiek laboratorium folkloru | 35 min |
 | Wiek warstwy wielorybów | 1 min |
-| Wiek niezależnej weryfikacji dziennika | 7 h |
-| Pokrycie OI | 49.2% |
+| Wiek niezależnej weryfikacji dziennika | 6 h |
+| Pokrycie OI | 48.8% |
 | Mediana wieku pozycji (ważona) | 3 min |
-| Pozycje / adresy | 29268 / 50001 |
+| Pozycje / adresy | 29746 / 50013 |
 | Błędy API (od startu procesu) | 217 |
 
 Źródło: https://raw.githubusercontent.com/rdemb/hyperquant-data/main
